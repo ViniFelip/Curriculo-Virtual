@@ -36,12 +36,12 @@
       background-color: burlywood;
       width: 200px;
       height: 200px;
-    
+
     }
 
     p {
       color: black;
-      
+
     }
 
     li {
@@ -55,18 +55,27 @@
 
     .nova {
       color: black;
-      background-color: #aad3a5;
-      width: 90%;
-      display:flex;
+      display: flex;
       flex-wrap: wrap;
-      justify-content: space-evenly;
-      border-radius: 15px;
-      box-shadow: 15px 9px 35px 11px rgba(0,0,0,0.75);
-      
+      justify-content: space-between;
+      background-color: rgb(216, 213, 79);
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     }
 
-    h1 {position: sticky;
-    top:0}
+    h1 {
+      position: sticky;
+      top: 0
+    }
+
+    .velho {
+      background-color: rgb(120, 240, 50);
+      border: 2px solid #000000;
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      display: flex;
+      flex-direction: column;
+      width: 11%;
+      margin: 5%;
+    }
   </style>
 
 
@@ -105,17 +114,18 @@
     </ul>
 
     <section class="nova">
-      <h2>Projetos</h2>
+      <h2 style="background-color: rgb(99, 230, 121); width: 100px;
+      height: 25px;">Projetos</h2>
 
-      <div>
+      <div class="velho">
 
         <h3>Japonês</h3>
         <span>日本語</span>
-        <p>隣近所とけんかをするほど愚かなことはありません。<br> 
+        <p>隣近所とけんかをするほど愚かなことはありません。<br>
           賢い人は不必要なことは話しません</p>
       </div>
 
-      <div>
+      <div class="velho">
 
         <h3>Coreano</h3>
         <span>한국어</span>
@@ -123,18 +133,18 @@
           마음이 신실한 자는 그런 것을 숨기느니라</p>
       </div>
 
-      <div>
+      <div class="velho">
         <h3>inglês</h3>
         <span>English</span>
         <p>He that is void of wisdom despises his neighbor:<br>
           but a man of understanding holds his peace.</p>
       </div>
 
-      <div>
+      <div class="velho">
         <h3>Português</h3>
         <span>Português</span>
-        <p>O homem que não tem juízo  <br>ridicularizao seu próximo,
-           mas <br>o que tem entendimento refreia a língua.</p>
+        <p>O homem que não tem juízo <br>ridicularizao seu próximo,
+          mas <br>o que tem entendimento refreia a língua.</p>
       </div>
 
     </section>
@@ -178,7 +188,7 @@
     <div class="a">
 
       <p style="
-background-color:green; max-width: 900px">Desenvolvido por Vinicius Felipe de Araujo <br>E-mail:
+background-color:green; max-width: 100%">Desenvolvido por Vinicius Felipe de Araujo <br>E-mail:
         viniciusaraujo.vinicius@gmail.com</p>
 
     </div>
